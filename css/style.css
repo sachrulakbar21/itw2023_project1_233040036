@@ -17,6 +17,23 @@
   --h2-font: 3rem;
   --p-font: 1.1rem;
   --section-padding:6rem 0;
+  --primaryTextColor: #f4f4f4;
+  --secondaryTextColor: rgb(216, 108, 19);
+
+  --borderColor: #f1f1f1;
+  --lineColor: #d9d9d9;
+
+  --primaryBackgroundColor: #fff;
+  --secondaryBackgroundColor: #fbfbfb;
+  --thirdBackgroundColor: #f5f3f3;
+  --fourthBackgroundColor: #081b29;
+
+  --primaryIconCOlor: #7e74f1;
+  --primaryIconColorHover: #5d51e8;
+
+  --sectionPadding: 6rem 0;
+
+  --itemBorderRadius: 0.7rem;
 
 }
 
@@ -411,3 +428,70 @@ font textarea{
   background: var(--main-color);
 }
 
+#skills {
+  padding: var(--sectionPadding);
+  background: var(--fourthBackgroundColor);
+  margin-top: -900px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+}
+
+.skills .pre-title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 20px;
+  color: var(--main-color);
+}
+
+.education {
+  display: flex;
+  gap: 1rem;
+}
+
+.education .line {
+  padding: 0 0.7rem;
+}
+
+.education .line div {
+  width: 2px;
+  height: 100%;
+  background: var(--borderColor);
+  position: relative;
+}
+
+.education-info p {
+  margin: 0.6rem 0 1.4rem;
+}
+
+.education-years {
+  margin-bottom: 3rem;
+}
+
+.education .line div:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: var(--borderColor);
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1.5rem;
+}
+
+.skills-right ul {
+  line-height: 2rem;
+  padding: 0 1rem;
+}
