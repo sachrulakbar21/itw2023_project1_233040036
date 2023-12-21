@@ -329,6 +329,8 @@ header.sticky {
   transition: transform 0.5s;
 }
 
+/* Contact */
+
 .contact{
   background: var(--second-bg-color);
   display: grid;
