@@ -148,7 +148,7 @@
    }
 
    .navlist {
-    padding: 0 600px;
+    padding: 0 560px;
    }
   }
 
@@ -167,9 +167,10 @@
     }
 
     .navlist {
-      padding: 0 500px;
+      padding: 0 450px;
     }
   }
+
 
   @media (max-width: 500px) {
     .contact-form {
@@ -184,7 +185,7 @@
     }
 
     .navlist {
-      padding: 0 300px;
+      padding: 0 700px;
     }
 
     .contact{
