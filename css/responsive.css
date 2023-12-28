@@ -157,8 +157,12 @@
       width: 500px;
     }
 
+    .main-text {
+      padding-bottom: -500px;
+    }
     .video {
-      margin-right: 230px;
+      margin-right: 120px;
+      padding-top: -500px;
       transform: scale(.3);
     }
 
@@ -171,14 +175,28 @@
     .contact-form {
       width: 400px;
     }
+    
 
     .video {
       transform: scale(.3);
-      margin-right: 150px;
+      margin-right: -80px;
+      margin-top: -300px;
     }
 
     .navlist {
       padding: 0 300px;
+    }
+
+    .contact{
+      width: 650px;
+    }
+
+    .services {
+      width: 650px;
+    }
+
+    .main-text {
+      margin-right: -150px;
     }
   }
 
@@ -211,3 +229,5 @@
         margin-right: -220px;
     }
   }
+
+  

@@ -12,7 +12,7 @@
   --second-bg-color: #202020;
   --text-color: #fff;
   --second-color: #ccc;
-  --main-color: #ff4d05;
+  --main-color: #228B22;
   --big-font: 5rem;
   --h2-font: 3rem;
   --p-font: 1.1rem;
@@ -22,18 +22,6 @@
 
   --borderColor: #f1f1f1;
   --lineColor: #d9d9d9;
-
-  --primaryBackgroundColor: #fff;
-  --secondaryBackgroundColor: #fbfbfb;
-  --thirdBackgroundColor: #f5f3f3;
-  --fourthBackgroundColor: #081b29;
-
-  --primaryIconCOlor: #7e74f1;
-  --primaryIconColorHover: #5d51e8;
-
-  --sectionPadding: 6rem 0;
-
-  --itemBorderRadius: 0.7rem;
 
 }
 
