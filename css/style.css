@@ -83,6 +83,7 @@ span{
 
 /* end navbar */
 
+/* home section */
 section{
   padding: 160px 120px;
 }
@@ -184,6 +185,8 @@ header.sticky {
   border-bottom: 1px solid #ffffff1a;
   padding: 12px 15%;
 }
+
+/* end home  */
 
 /* about */
 
