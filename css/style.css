@@ -398,6 +398,8 @@ font textarea{
   transform: scale(1.1);
   cursor: pointer;
 }
+/* end contact */
+
 .end{
   padding: 20px;
   display: flex;
@@ -419,6 +421,8 @@ font textarea{
   background: var(--main-color);
 }
 
+
+/* skills line */
 #skills {
   padding: var(--sectionPadding);
   background: var(--fourthBackgroundColor);
@@ -470,7 +474,7 @@ font textarea{
   content: "";
   width: 15px;
   height: 15px;
-  background: var(--borderColor);
+  background: var(--main-color);
   border-radius: 50%;
   position: absolute;
   left: -6px;
@@ -486,3 +490,5 @@ font textarea{
   line-height: 2rem;
   padding: 0 1rem;
 }
+
+/* end skills line */
