@@ -44,6 +44,8 @@ header{
   transition: all .45s ease;
 }
 
+
+/* navbar */
 .logo{
   color: var(--text-color);
   font-size: 18px;
@@ -78,6 +80,8 @@ span{
   margin-left: 25px;
   display: none;
 }
+
+/* end navbar */
 
 section{
   padding: 160px 120px;
@@ -169,19 +173,7 @@ margin-bottom: 40px;
   margin-left: 5px;
 }
 
-.btn2 span i{
-  height: 48px;
-  width: 48px;
-  background: var(--main-color);
-  color: var(--text-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 35px;
-  border-radius: 50%;
-  margin-right: 15px;
-  transition: all .45s ease;
-}
+
 
 .btn2 span i:hover{
   transform: scale(1.1);
@@ -192,6 +184,8 @@ header.sticky {
   border-bottom: 1px solid #ffffff1a;
   padding: 12px 15%;
 }
+
+/* about */
 
 .about{
   display: grid;
@@ -224,6 +218,10 @@ header.sticky {
   line-height: 1.8;
   margin-bottom: 4rem;
 }
+
+/* end about */
+
+/* services */
 
 .services{
   background: var(--second-bg-color);
@@ -291,6 +289,7 @@ header.sticky {
   transform: translateY(-8px);
   cursor: pointer;
 }
+/* end services */
 
 /* Video */
 .portfolio-content{
@@ -316,6 +315,8 @@ header.sticky {
   display: block;
   transition: transform 0.5s;
 }
+
+/* end video */
 
 /* Contact */
 
